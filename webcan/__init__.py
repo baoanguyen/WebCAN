@@ -9,11 +9,15 @@ def create_app(test_config=None):
         DATABASE=os.path.join(app.instance_path, 'webcan.sqlite'),
 
     )
+    #Import .py modules
     from . import db
     db.init_app(app)
 
     from . import auth
     app.register_blueprint(auth.bp)
+
+    from . import upload
+    
 
     if test_config is None:
         app.config.from_pyfile('config.py', silent=True)
