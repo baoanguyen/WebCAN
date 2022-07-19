@@ -1,0 +1,7 @@
+2022-04-26 16:26:26,173 - DEBUG - Message received: Timestamp: 1651004785.682834    ID: 18800401    X Rx                DL:  8    12 25 a1 99 9e 94 9e 00     Channel: can1
+2022-04-26 16:26:26,211 - DEBUG - Decoded signals: {'VoltageCellMuxSelect': 18, 'VoltageCell55': 4.1253, 'VoltageCell56': 4.0601, 'VoltageCell57': 4.0596000000000005}
+2022-04-26 16:26:26,268 - DEBUG - Message received: Timestamp: 1651004785.683081    ID: 18c00401    X Rx                DL:  8    12 84 2e 4a 2e a3 2e 00     Channel: can1
+2022-04-26 16:26:26,285 - DEBUG - Decoded signals: {'TempChannelMuxSelect': 18, 'TempChannel55': 19.08, 'TempChannel56': 18.5, 'TempChannel57': 19.39}
+2022-04-26 16:26:26,333 - DEBUG - Message received: Timestamp: 1651004785.683366    ID: 05807202    X Rx                DL:  8    00 80 00 00 40 01 01 9f     Channel: can1
+2022-04-26 16:26:26,351 - DEBUG - Decoded signals: {'TorqueDemandRight': 0.0, 'TorqueLimitBrakingRight': 0.0, 'TorqueLimitDriveRight': 20.0, 'PRO_CAN_COUNT': 1, 'PRO_CAN_RES': 0, 'PRO_CAN_CRC': 159}
+2022-04-26 16:26:26,391 - DEBUG - Message received: Timestamp: 1651004785.683651    ID: 05817202    X Rx                DL:  8    01 00 a0 0f a0 0f 04 9f     Channel: can1
