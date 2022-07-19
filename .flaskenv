@@ -1,0 +1,2 @@
+FLASK_APP=webcan
+FLASK_ENV=development
